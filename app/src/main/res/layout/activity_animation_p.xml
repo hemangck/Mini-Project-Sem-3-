@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animationP">
+
+    <TextView
+        android:id="@+id/animTxt"
+        android:layout_width="330dp"
+        android:layout_height="84dp"
+        android:text="Hello World !"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.308"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <TableLayout
+        android:layout_width="404dp"
+        android:layout_height="278dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/translateBtn"
+                android:layout_width="183dp"
+                android:layout_height="103dp"
+                android:text="Translate"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/scaleBtn"
+                android:layout_width="183dp"
+                android:layout_height="103dp"
+                android:text="Scale"
+                android:textSize="26sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/rotateBtn"
+                android:layout_width="183dp"
+                android:layout_height="103dp"
+                android:text="Rotate"
+                android:textSize="26sp" />
+
+            <Button
+                android:id="@+id/alphaBtn"
+                android:layout_width="183dp"
+                android:layout_height="103dp"
+                android:text="Alpha"
+                android:textSize="26sp" />
+
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929410871576",
+    "project_id": "miniproject-f065b",
+    "storage_bucket": "miniproject-f065b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929410871576:android:97f9fa172ff8881691ee6d",
+        "android_client_info": {
+          "package_name": "com.example.somaiyaclassroombookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4x6l9G70SKrcuYP1crI2vM28ar9qMEcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
