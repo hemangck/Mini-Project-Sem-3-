@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "929410871576",
+    "firebase_url": "https://miniproject-f065b-default-rtdb.firebaseio.com",
     "project_id": "miniproject-f065b",
     "storage_bucket": "miniproject-f065b.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.example.somaiyaclassroombookingapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "929410871576-2961htmtojakjothncmrc4si2noufru3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.somaiyaclassroombookingapp",
+            "certificate_hash": "9b0dece967891cdce51dc368901df55e5851e498"
+          }
+        },
+        {
+          "client_id": "929410871576-a7dd018v708de4rb26cfsa1f5a973f47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyD4x6l9G70SKrcuYP1crI2vM28ar9qMEcY"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929410871576-a7dd018v708de4rb26cfsa1f5a973f47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

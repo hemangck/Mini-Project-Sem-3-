@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".roomBooking">
+
+
+    <TextView
+        android:id="@+id/buTxt"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="60dp"
+        android:text="Select Room :"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/c_one_one_Btn"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:text="101"
+            android:textSize="30sp"
+            android:backgroundTint="#6D77FB"/>
+
+        <Button
+            android:id="@+id/c_one_two_Btn"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="40dp"
+            android:text="102"
+            android:textSize="30sp"
+            android:backgroundTint="#6D77FB"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/c_one_three_Btn"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:text="103"
+            android:textSize="30sp"
+            android:backgroundTint="#6D77FB"/>
+
+        <Button
+            android:id="@+id/c_one_four_Btn"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="40dp"
+            android:text="104"
+            android:textSize="30sp"
+            android:backgroundTint="#6D77FB"/>
+
+    </LinearLayout>
+
+</LinearLayout>

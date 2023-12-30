@@ -1,3 +1,77 @@
 <resources>
     <string name="app_name">Somaiya Classroom Booking app</string>
+
+    <string-array name="roles">
+        <item>role</item>
+        <item>Faculty</item>
+        <item>Student</item>
+        <item>Office Staff</item>
+    </string-array>
+
+    <string-array name="events">
+        <item>event</item>
+        <item>Lecture</item>
+        <item>Lab Session</item>
+        <item>Workshop</item>
+        <item>Fest</item>
+    </string-array>
+
+    <string-array name="timeslot">
+        <item>timeslot</item>
+        <item>9:10 AM-10:30 AM</item>
+        <item>10:40 AM-12:00 AM</item>
+        <item>1:00 PM-2:20 PM</item>
+        <item>2:20 PM-3:50 PM</item>
+        <item>4:00 PM-5:20 PM</item>
+    </string-array>
+
+    <string-array name="buildings">
+        <item>building</item>
+        <item>KJSIM</item>
+        <item>CHANAKYA</item>
+    </string-array>
+
+    <string-array name="floor">
+        <item>floor</item>
+        <item>first</item>
+        <item>second</item>
+    </string-array>
+
+    <string-array name="roomNo1">
+        <item>room</item>
+        <item>101</item>
+        <item>102</item>
+    </string-array>
+
+    <string-array name="roomNo2">
+        <item>room</item>
+        <item>201</item>
+        <item>202</item>
+    </string-array>
+
+    <string-array name="roomNo3">
+        <item>room</item>
+        <item>301</item>
+        <item>302</item>
+        <item>303</item>
+        <item>304</item>
+    </string-array>
+
+    <string-array name="roomNo4">
+        <item>room</item>
+        <item>401</item>
+        <item>402</item>
+        <item>403</item>
+        <item>404</item>
+    </string-array>
+
+    <string-array name="day">
+        <item>day</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
 </resources>

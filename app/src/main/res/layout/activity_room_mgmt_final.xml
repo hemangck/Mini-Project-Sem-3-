@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/kjsim_login"
+    tools:context=".from1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:isScrollContainer="true"
+        android:background="@drawable/custom_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Room Booking"
+                android:id="@+id/bookingText"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#6D77FB"/>
+
+            <EditText
+                android:id="@+id/building"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="10dp"
+                android:hint="Building"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/floor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="10dp"
+                android:hint="Floor"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/roomNo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="10dp"
+                android:hint="Room number"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/dateET2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:layout_marginTop="10dp"
+                android:hint="Classroom / Lab"
+                android:padding="8dp" />
+
+
+            <EditText
+                android:id="@+id/dayET"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:hint="day-(Mon/Tue/Wed/Thu/Fri)"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/timeSlotET"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:hint="slot"
+                android:layout_marginTop="20dp" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/bookButton"
+                android:text="Book"
+                android:textSize="18sp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#6D77FB"
+                app:cornerRadius="20dp"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="-"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

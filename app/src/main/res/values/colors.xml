@@ -5,4 +5,7 @@
     <color name="linen">#FAF0E6</color>
     <color name="lightCream">#FFF5E1</color>
     <color name="antWhite">#FAEBD7</color>
+    <color name="SurfaceBright">#FEF7FF</color>
+    <color name="errorRed">#B3261E</color>
+    <color name="successGreen">#00FF00</color>
 </resources>

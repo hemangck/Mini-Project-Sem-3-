@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,10 +17,45 @@
         android:theme="@style/Theme.SomaiyaClassroomBookingApp"
         tools:targetApi="31">
         <activity
-            android:name=".register"
+            android:name=".bookingFailure"
             android:exported="false" />
         <activity
-            android:name=".login"
+            android:name=".roomBooking"
+            android:exported="false" />
+        <activity
+            android:name=".dbTest"
+            android:exported="false" />
+        <activity
+            android:name=".adminBmgmt"
+            android:exported="false" />
+        <activity
+            android:name=".homePageAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".dbFetchTest"
+            android:exported="false" />
+        <activity
+            android:name=".roomMgmtFinal"
+            android:exported="false" />
+        <activity
+            android:name=".roomMgmt"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".bookingFragment" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".bookingMgmt"
+            android:exported="false" />
+        <activity
+            android:name=".bookSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".homePage"
+            android:exported="false" />
+        <activity
+            android:name=".from1"
+            android:exported="false" />
+        <activity
+            android:name=".loginF"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +64,36 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".dataModel"
+            android:exported="false" />
+        <activity
+            android:name=".bookingDemo"
+            android:exported="false" />
+        <activity
+            android:name=".loginPage"
+            android:exported="false" />
+        <activity
+            android:name=".getStarted3"
+            android:exported="false" />
+        <activity
+            android:name=".getStarted2"
+            android:exported="false" />
+        <activity
+            android:name=".userRoles"
+            android:exported="false" />
+        <activity
+            android:name=".introSplash"
+            android:exported="false" />
+        <activity
+            android:name=".getStarted"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
             android:name=".animationP"
             android:exported="false" />
         <activity
@@ -32,8 +101,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
-
+            android:exported="false" /> <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
